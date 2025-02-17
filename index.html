@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium product landing page - discover our amazing features">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+</head>
+<body>
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <div class="logo">Smart<span>Watch</span></div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="theme-switch">
+        <button id="themeToggle" class="theme-toggle">
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Premium Product</h1>
+                <p>Experience the difference with our revolutionary product</p>
+                <button class="cta-button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=500&h=500&q=80" alt="Modern Smart Watch Product">
+            </div>
+        </div>
+    </header>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <a href="https://images.unsplash.com/photo-1546868871-7041f2a55e12" 
+                           data-fancybox="gallery" 
+                           data-caption="Smart Watch X">
+                            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12" alt="Smart Watch Model X">
+                        </a>
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Watch X</h3>
+                        <p class="product-description">Advanced fitness tracking and notifications</p>
+                        <div class="product-price">$299.99</div>
+                        <button class="product-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a" alt="Smart Watch Model Y">
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Watch Y</h3>
+                        <p class="product-description">Premium design with AMOLED display</p>
+                        <div class="product-price">$399.99</div>
+                        <button class="product-button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1434494787635-92d26b489454" alt="Smart Watch Sport">
+                        <span class="product-badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Watch Sport</h3>
+                        <p class="product-description">Built for athletes and fitness enthusiasts</p>
+                        <div class="product-price"><span class="original-price">$349.99</span> $279.99</div>
+                        <button class="product-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-award feature-icon"></i>
+                    <h3>High Quality</h3>
+                    <p>Premium materials and craftsmanship</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h3>Durable</h3>
+                    <p>Built to last for years</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-lightbulb feature-icon"></i>
+                    <h3>Innovative</h3>
+                    <p>Cutting-edge technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Amazing product, exceeded my expectations!"</p>
+                    <cite>- John D.</cite>
+                </div>
+                <div class="review">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Best purchase I've made this year."</p>
+                    <cite>- Sarah M.</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for exclusive offers and updates</p>
+            <form class="newsletter-form" id="newsletterForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="cta-button">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: contact@example.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="social">
+                    <h3>Follow Us</h3>
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+</body>
+</html>
